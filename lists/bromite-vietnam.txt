@@ -1,31 +1,39 @@
-# ----------------------------------
-# First, all entries from bromite-extended
-# ----------------------------------
-
-# Default entries from https://github.com/bromite/filters/blob/master/lists.txt
-https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters.txt
-https://github.com/uBlockOrigin/uAssets/raw/master/filters/badware.txt
-https://github.com/uBlockOrigin/uAssets/raw/master/filters/privacy.txt
-https://github.com/uBlockOrigin/uAssets/raw/master/filters/resource-abuse.txt
-https://github.com/uBlockOrigin/uAssets/raw/master/filters/unbreak.txt
+# Default entries from Ublock Origin1
+https://ublockorigin.github.io/uAssets/filters/filters.txt
+https://ublockorigin.github.io/uAssets/filters/badware.txt
+https://ublockorigin.github.io/uAssets/filters/privacy.txt
+https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/quick-fixes.txt
+https://ublockorigin.github.io/uAssets/filters/resource-abuse.txt
+https://ublockorigin.github.io/uAssets/filters/unbreak.txt
 https://easylist.to/easylist/easylist.txt
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
 https://easylist.to/easylist/easyprivacy.txt
-https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext
+https://malware-filter.pages.dev/urlhaus-filter-online.txt
+https://ublockorigin.github.io/uAssets/filters/annoyances.txt
 
-# Annoying Elements, Cookie promts etc.
-https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
-https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt
-https://secure.fanboy.co.nz/fanboy-annoyance.txt
-https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
-https://filters.adtidy.org/extension/ublock/filters/14.txt
-
-# CNAME record trackers
-# https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt
+# Dynamic Rules - the 3rd-party scripts and 3rd-party filters
+https://raw.githubusercontent.com/Yuki2718/adblock2/main/medium_mode/dynamic-rules.txt
+https://raw.githubusercontent.com/Yuki2718/adblock2/main/medium_mode/dynamic-rules-mob.txt
 
 # Other Adguard lists
-https://filters.adtidy.org/extension/ublock/filters/2.txt
-https://filters.adtidy.org/extension/ublock/filters/3.txt
 https://filters.adtidy.org/extension/ublock/filters/11.txt
+https://filters.adtidy.org/extension/ublock/filters/17.txt
+https://filters.adtidy.org/extension/ublock/filters/14.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt
+
+# Enhanced Privacy
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
+https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AnnoyancesList
+
+# Other
+https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt
+https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
+https://www.i-dont-care-about-cookies.eu/abp/
+https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+https://fanboy.co.nz/fanboy-problematic-sites.txt
+https://abp.oisd.nl/basic/
+https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt
 
 # Third party fonts
 https://fanboy.co.nz/fanboy-antifonts.txt
@@ -33,15 +41,9 @@ https://fanboy.co.nz/fanboy-antifonts.txt
 # Other third-party tracking
 https://easylist.to/easylist/fanboy-social.txt
 
-# Annoyances on Twitter
-https://raw.githubusercontent.com/robonxt/CleanYourTwitter/master/CleanYourTwitter.txt
+# Xarantolus's own block list
+https://raw.githubusercontent.com/xarantolus/nervig/main/annoyances.txt
 
-# Third-party filters
-https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt
-
-# ----------------------------------
-# Now some region-specific lists
-# ----------------------------------
 # Vietnamese filters
 https://abpvn.com/filter/abpvn-qEMOPq.txt
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/filters/adservers-all.txt
