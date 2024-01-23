@@ -47,6 +47,8 @@ https://malware-filter.gitlab.io/malware-filter/botnet-filter.txt
 https://filters.adtidy.org/extension/ublock/filters/104_optimized.txt
 https://filters.adtidy.org/extension/ublock/filters/1_optimized.txt
 https://easylist-downloads.adblockplus.org/ruadlist.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/antiadblock.txt
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
 
 # ----------------------------------
 # Now some region-specific lists
